@@ -7,7 +7,7 @@ var host   = process.env.HOSTNAME || 'localhost';
 
 //We need a function which handles requests and send response
 function handleRequest(request, response){
-    response.end('My Node App v-1.0 !! Server : ' + host);
+    response.end('My Node App v-1.0 !! Server : ' + host + "\n");
 }
 
 //Create a server
