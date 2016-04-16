@@ -1,0 +1,25 @@
+{
+  "name": "my-node-app",
+  "version": "0.0.1",
+  "description": "Node.js sample app for OpenShift 3",
+  "main": "server.js",
+  "dependencies": {
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudhaker/my-node-app.git"
+  },
+  "author": "Sudhaker Raj <sudhaker@gmail.com>",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/sudhaker/my-node-app/issues"
+  },
+  "homepage": "https://github.com/sudhaker/my-node-app"
+}
